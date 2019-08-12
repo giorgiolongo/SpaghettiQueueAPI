@@ -1,0 +1,4 @@
+ErrorDocument 404 /error.php?t=NotFound
+ErrorDocument 500 /error.php?t=Forbidden
+
+AddHandler av-php7 .php
